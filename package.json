@@ -1,0 +1,28 @@
+{
+  "name": "TSpliter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/iconf.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . tSpliter --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"T Spliter\"",
+    "package-linux": "electron-packager . tSpliter --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icon.png --prune=true --out=release-builds"
+  },
+  "author": "Thien MD",
+  "license": "ISC",
+  "devDependencies": {
+    "devtron": "1.4.0",
+    "standard": "12.0.1"
+  },
+  "dependencies": {
+    "electron": "3.0.4",
+    "electron-reload": "1.2.5",
+    "electron-store": "2.0.0",
+    "spectre.css": "0.5.3",
+    "toastr": "^2.1.4"
+  },
+  "build": {
+    "appId": "com.dotvn.spliterApp"andoriandroi
+  }
+}

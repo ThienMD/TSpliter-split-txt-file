@@ -1,0 +1,43 @@
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.titleItem {
+    margin-right: 20px;
+}
+
+.textField {
+    margin-right: 20px;
+    width: 300px;
+}
+
+
+.btSplit {
+    margin-top: 50px;
+}
+
+.loadingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.loadingText {
+    color: white;
+}
+
+.aboutContainer {
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>T Spliter Phần mềm chia File</title>
+    <link rel="stylesheet" href="../node_modules/spectre.css/dist/spectre.min.css">
+    <script src="../node_modules/toastr/toastr.js"></script>
+    <link href="../node_modules/toastr/build/toastr.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <form class="form-horizontal">
+        <h1 class="text-center">T SPLITER</h1>
+        <div class="container">
+            <div class="rowContainer">
+                <div class="titleItem">File cần chia</div>
+                <div>
+                    <input id="tfFile" class="form-input textField" type="text" name="add-input" placeholder="Path">
+                </div>
+                <button id="btChooseFile" type="button" class="btn">
+                    Chọn File
+                </button>
+            </div>
+            <div class="rowContainer">
+                <div class="titleItem">Thư mục lưu</div>
+                <input id="tfFolder" class="form-input textField" type="text" name="add-input" placeholder="Path">
+                <button id="btChooseFolder" type="button" class="btn">
+                    Chọn Thư mục
+                </button>
+            </div>
+            <div class="rowContainer">
+                <div class="titleItem">Số dòng mỗi file</div>
+                <input id="tfNumberOfLine" class="form-input textField" value="3000" type="text" name="add-input" placeholder="3000">
+            </div>
+            <button id="btSplit" type="button" class="btn btn-success btSplit" style="margin-top: 100px; width: 100%">
+                Chia File
+            </button>
+        </div>
+    </form>
+    <div id="loading" class="loadingContainer">
+        <div class="loading loading-lg"></div>
+        <div class="loadingText">Vui lòng đợi</div>
+    </div>
+
+</div>
+
+<script> require('./index.js')</script>
+</body>
+
+</html>
