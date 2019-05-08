@@ -1,6 +1,6 @@
 **T SPLITER. FILE SPLITER CROSS PLATFORM (BUILD WITH ELECTRON)**
 
-![Alt text](relative/img/screen-shot.png?raw=true "Title")
+![Alt text](img/screen-shot.png?raw=true "Title")
 
 **`Readme`**
 
